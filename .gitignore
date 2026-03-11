@@ -35,3 +35,27 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Large model artifacts (>100 MB — exceed GitHub file size limit) ───────────
+# Regenerate by running the notebooks.
+Notebooks/m5_model/
+Notebooks/m5_tokenizer/
+Models/*.joblib
+Models/*.pkl
+Models/*.pt
+Models/*.bin
+*.safetensors
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
