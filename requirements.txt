@@ -1,0 +1,27 @@
+# ── Core data science ──────────────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+joblib>=1.4
+
+# ── NLP ────────────────────────────────────────────────────────────────────────
+nltk>=3.9
+spacy>=3.8
+contractions>=0.1.73
+# After install run: python -m spacy download en_core_web_sm
+
+# ── Transformer stack ──────────────────────────────────────────────────────────
+torch>=2.1
+transformers>=4.40
+# GPU (optional): install torch with CUDA — see https://pytorch.org/get-started
+
+# ── Explainability ─────────────────────────────────────────────────────────────
+shap>=0.44
+
+# ── Visualisation ──────────────────────────────────────────────────────────────
+matplotlib>=3.8
+seaborn>=0.13
+
+# ── Notebook environment ───────────────────────────────────────────────────────
+jupyter>=1.0
+nbconvert>=7.0
